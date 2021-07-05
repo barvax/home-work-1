@@ -1,0 +1,142 @@
+.border{
+   
+    width:1200px;
+    height: 1000px;
+   
+    border-style: solid;
+    border-width: 0.5px;
+    margin: 25px 0px 0px 25px;
+    
+}
+.top-left{
+    display: flex;
+    padding-left: 50px;
+    padding-top: 80px;
+    color: #595959;
+    position: absolute;
+    top:-30px;
+}
+.top-left>h1{
+    font-size: 24px;
+}
+
+
+.fas {
+    width: 40px;
+    font-size: 30px;
+    padding-top: 18px;
+    padding-left: 6px;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+    color:#888888;
+   
+    width: 90%;
+    margin: auto;
+    border-bottom:5px solid #BFBFBF ;
+    background-image: linear-gradient(to right,#fff, #E8E8E8);
+   
+    
+    
+  }
+  .grid-item {
+   
+    border: 1px solid #888888;
+   
+    padding: 10px;
+    font-size: 20px;
+    text-align: left;
+  }
+  .item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    
+    color :white;
+    background-color: #595959;
+    border: rgba(255, 255, 255, 0.0);
+    border-bottom: #AC2020;
+    border-style: solid;
+    border-width: 3px;
+    border-top: rgba(255, 255, 255, 0.0);
+  }
+  .myInput{
+    background-image: linear-gradient(to right,#fff, #E8E8E8);
+    border-style: solid;
+    border-width: 1px;
+    height: 30px;
+    color:#888888;
+    font-size: 20px;
+   
+  }
+ select{
+     width: 250px;
+     color:#888888;
+     font-size: 20px;
+ }
+ .my-btn{
+    background-image: linear-gradient(to left,#fff, #C3C3C3);
+   
+    margin: auto;
+   
+    display: flex;
+    margin-top: 50px;
+    width: 150px;
+    padding: 10px 10px 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    color: #404040;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+  
+ }
+ .top-right{
+    display: flex;
+    margin-left: 910px;
+    padding-top: 0;
+   
+ }
+
+ .btn-1{
+    background-color: #595959;
+    color: white;
+    
+    margin-top: 50px;
+    width: 150px;
+    padding: 10px 10px 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+    border-style: solid;
+    border-width: 1px;
+
+ }
+ .btn-2{
+
+    background-color: #D9D9D9;
+    color: rgb(218, 18, 18);
+  
+    padding: 0px;
+    font-size: 16px;
+    
+    color: rgb(117,117,117);
+    
+    margin-top: 50px;
+    width: 80px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+  
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+    border-style: solid;
+    border-width: 1px;
+
+ }
