@@ -74,6 +74,9 @@
      color:#888888;
      font-size: 20px;
  }
+button{
+   button:hover {background-color: #3e8e41}
+}
  .my-btn{
     background-image: linear-gradient(to left,#fff, #C3C3C3);
    
